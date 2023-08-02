@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T07:51:39.388Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2zPWB72hHNzdzx4HCnTI" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T07:54:41.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="5bf3NJcDRJATxec22Nu4" version="21.6.6" type="github">
   <diagram name="Page-1" id="SM3McS_dDD0NzlUsn2w9">
     <mxGraphModel dx="1912" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -186,17 +186,35 @@
         <mxCell id="gJWD2Qefy9QCllTol-AR-75" value="CloudWatch Event" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="989" y="438" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gJWD2Qefy9QCllTol-AR-76" value="RAW Bucket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="gJWD2Qefy9QCllTol-AR-76" value="Raw Bucket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="25" y="689" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gJWD2Qefy9QCllTol-AR-77" value="data-pipeline-manager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="194" y="570" width="140" height="30" as="geometry" />
+        <mxCell id="gJWD2Qefy9QCllTol-AR-77" value="data-pipeline-manager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="184" y="570" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gJWD2Qefy9QCllTol-AR-81" value="extract-bronze" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="203" y="760" width="100" height="30" as="geometry" />
+        <mxCell id="gJWD2Qefy9QCllTol-AR-81" value="extract-bronze" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="198" y="760" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gJWD2Qefy9QCllTol-AR-82" value="extract-silver" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="397" y="760" width="90" height="30" as="geometry" />
+        <mxCell id="gJWD2Qefy9QCllTol-AR-82" value="extract-silver" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="392" y="760" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gJWD2Qefy9QCllTol-AR-85" value="Bronze Bucket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="188" y="940" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gJWD2Qefy9QCllTol-AR-86" value="Silver DB&lt;br&gt;(Silver Data Lake)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="950" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gJWD2Qefy9QCllTol-AR-87" value="Intermediate Bucket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="950" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gJWD2Qefy9QCllTol-AR-88" value="Index Bucket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="940" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gJWD2Qefy9QCllTol-AR-89" value="Gold DB&lt;br&gt;(Gold Data Lake)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="744" y="945" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gJWD2Qefy9QCllTol-AR-90" value="Transformed DB&lt;br&gt;(Silver Data Lake)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="869" y="945" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
